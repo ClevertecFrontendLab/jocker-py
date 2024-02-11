@@ -1,0 +1,17 @@
+#navList .ant-menu-item {
+    margin: 0 0 18px 0;
+}
+
+#navList .ant-menu-vertical .ant-menu-item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+@media (min-width: 360px) and (max-width: 833px) {
+    #navList .ant-menu-item {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0;
+        margin: 0 8px 10px 8px;
+        letter-spacing: 0.19px;
+    }
+}
