@@ -1,0 +1,10 @@
+#mainLayout {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("public/mainPage.png");
+
+    .ant-layout {
+        background-color: transparent;
+    }
+}

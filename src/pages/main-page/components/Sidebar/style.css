@@ -1,0 +1,19 @@
+#sidebar {
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 32px 0 0;
+    transition: 0.3s ease-in-out;
+    background-color: var(--color-white-standard);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 360px) and (max-width: 833px) {
+    #sidebar {
+        position: fixed;
+        padding: 0;
+        height: 100%;
+        z-index: 100;
+    }
+}

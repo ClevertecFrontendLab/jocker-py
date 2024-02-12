@@ -11,6 +11,26 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    --color-white-standard: #FFFFFF;
+
+    --color-grey-light: #F0F0F0;
+    --color-grey-primary: #8C8C8C;
+
+    --color-blue-standard: #061178;
+    --color-blue-light: #F0F5FF;
+    --color-blue-ocean: #2F54EB;
+
+    --color-text-dark: #262626;
+
+    --sidebar-width-full: 208px;
+    --sidebar-width-collapsed : 64px;
+
+    --header-height: 168px;
+
+    --media-large: 1440px;
+    --media-medium: 834px;
+    --media-small: 360px;
 }
 
 a {
@@ -24,7 +44,6 @@ a:hover {
 
 body {
     margin: 0;
-    display: flex;
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
@@ -66,3 +85,4 @@ button:focus-visible {
         background-color: #f9f9f9;
     }
 }
+
